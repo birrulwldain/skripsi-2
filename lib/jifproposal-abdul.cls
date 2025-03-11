@@ -371,70 +371,53 @@
 }
 
 %------------------------------------------------------------
-%Approval Page
+% Approval Page
 %------------------------------------------------------------
 \def\approvalpage{%
-	\clearpage\addcontentsline{toc}{chapter}{Halaman Pengesahan}
-	\chapter*{\approvalname}%
-	\thispagestyle{empty}
-	\begin{center}
-		\begin{doublespace}
-			\vspace{0.5cm}
-			\fontsize{12pt}{10pt}\selectfont\MakeUppercase{\large{\bfseries\@judul}}\par\nobreak
-
-			% \vspace{1cm}
-			% \fontsize{12pt}{10pt}\selectfont\MakeUppercase{\large{\bfseries\@judull}}\par\nobreak
-
-			\vspace{0.9cm}
-			Oleh:
-			%\vspace{-0.5cm}
-			\begin{singlespace}
-				\begin{compactitem}
-					\addtolength{\itemindent}{3cm}
-					\setlength{\parsep}{0pt}
-					\item[]{\makebox[2cm]{Nama\hfill} : \@fullname}
-					\item[]{\makebox[2cm]{NPM\hfill} : \@idnum}
-					\item[]{\makebox[2cm]{Departemen\hfill} : \@dept}
-				\end{compactitem}
-			\end{singlespace}
-			%\vspace{2.0cm} edited 16/04/2022
-			\vspace{0.9cm}
-			
-			%Telah disetujui dan disahkan\\
-			%pada tanggal \@approvaldate
-			%\vspace{1.0cm}
-
-			Menyetujui:\\
-			\vspace{1.0cm}
-			\onehalfspacing
-				\begin{tabular}{lll}
-					Pembimbing I & \hspace{2.5cm} & Pembimbing II \\
-					\vspace{0.3cm} & \vspace{0.3cm} & \vspace{0.3cm}\\
-					\underline{\@firstsupervisor}& &
-					\underline{\@secondsupervisor} \\
-					NIP. \@firstnip & &  NIP. \@secondnip
-				\end{tabular}	
-			%\vspace{2.0cm} edited 16/04/2022
-			\vspace{1.0cm}
-			
-			% Mengetahui dekan dan kajur informatika
-			% Tanpa mengetahui dekan
-			
-			Mengetahui:\\
-			\vspace{0.9cm}
-			Ketua Departemen Fisika \\ 
-			\vspace{-0.27cm}\\
-			Universitas Syiah Kuala,\\
-			\vspace{1.7cm}\\
-			\underline{Dr. Saumi Syahreza, S.Si, M.Si.} & \\
-			NIP. \@kaprodinip &
-
-			\end{doublespace}
-		% \vspace{0.9cm}
-		% Lulus Sidang Sarjana pada hari \@approvaldate
-	\end{center}
-
-
+    \clearpage
+    \addcontentsline{toc}{chapter}{Halaman Pengesahan}
+    \chapter*{\approvalname}
+    \thispagestyle{empty}
+    \begin{center}
+        \begin{doublespace}
+            \vspace*{2cm}
+            \fontsize{14pt}{16pt}\selectfont
+            \textbf{\MakeUppercase{\@judul}}\par\nobreak
+            
+            \vspace{1.5cm}
+            \fontsize{12pt}{14pt}\selectfont
+            Oleh:
+            
+            \vspace{0.5cm}
+            \begin{minipage}{0.5\textwidth}
+                \begin{tabular}{ll}
+                    Nama    & : \@fullname \\
+                    NPM     & : \@idnum \\
+                    Jurusan & : \@dept \\
+                \end{tabular}
+            \end{minipage}
+            
+            \vspace{2cm}
+            \fontsize{12pt}{14pt}\selectfont
+            Telah disetujui dan disahkan sebagai Proposal Seminar\\
+            pada tanggal \@approvaldate
+            
+            \vspace{2cm}
+            \begin{tabular}{p{6cm}p{6cm}}
+                \underline{\@firstsupervisor} & \underline{\@secondsupervisor} \\
+                NIP. \@firstnip & NIP. \@secondnip \\
+                Pembimbing I & Pembimbing II
+            \end{tabular}
+            
+            \vspace{2cm}
+            Mengetahui:\\
+            Ketua Departemen Fisika\\
+            \vspace{1cm}
+            \underline{\@kaprodi}\\
+            NIP. \@kaprodinip
+        \end{doublespace}
+    \end{center}
+    \clearpage
 }
 %------------------------------------------------------------
 % Acknowlegment

@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.11)  11 MAR 2025 23:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.11)  11 MAR 2025 23:55
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
-**seminar-proposal.tex
+**seminar-proposal
 (./seminar-proposal.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -544,7 +544,16 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip115
 )
 \mylenf=\skip116
- (/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTleft=\skip117
 \LTright=\skip118
@@ -562,7 +571,8 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \c@LT@tables=\count316
 \c@LT@chunks=\count317
 \LT@p@ftn=\toks35
-) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/xltabular/xltabular.sty
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/xltabular/xltabular.sty
 Package: xltabular 2025/02/28 v0.2i `xltabular' package (hv,RN)
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/ltablex/ltablex.sty
@@ -746,7 +756,7 @@ Package: ulem 2019/11/18
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 142.
+e 146.
 
 (./include/sampul-depan.tex)
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/rotating.sty
@@ -767,7 +777,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \cftbeforeloltitleskip=\skip128
 \cftafterloltitleskip=\skip129
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 18
-1.
+5.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -779,27 +789,27 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box82
 ) (./seminar-proposal.aux (./include/daftar-singkatan.aux)
 (./include/kata-pengantar.aux) (./include/daftar-singkatan.aux)
-(./include/bab1.aux) (./include/bab2.aux))
+(./include/bab1.aux) (./include/bab2.aux) (./include/bab3.aux))
 \openout1 = `seminar-proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -868,27 +878,27 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 181.
+Package hyperref Info: Link coloring OFF on input line 185.
 
 (./seminar-proposal.out) (./seminar-proposal.out)
 \@outlinefile=\write4
 \openout4 = `seminar-proposal.out'.
 
 \c@lstlisting=\count355
-LaTeX Info: Redefining \microtypecontext on input line 181.
-Package microtype Info: Applying patch `item' on input line 181.
-Package microtype Info: Applying patch `toc' on input line 181.
-Package microtype Info: Applying patch `eqnum' on input line 181.
-Package microtype Info: Applying patch `footnote' on input line 181.
-Package microtype Info: Applying patch `verbatim' on input line 181.
-LaTeX Info: Redefining \microtypesetup on input line 181.
+LaTeX Info: Redefining \microtypecontext on input line 185.
+Package microtype Info: Applying patch `item' on input line 185.
+Package microtype Info: Applying patch `toc' on input line 185.
+Package microtype Info: Applying patch `eqnum' on input line 185.
+Package microtype Info: Applying patch `footnote' on input line 185.
+Package microtype Info: Applying patch `verbatim' on input line 185.
+LaTeX Info: Redefining \microtypesetup on input line 185.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 181.
+LaTeX Info: Redefining \showhyphens on input line 185.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -936,15 +946,33 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 18
-5.
+9.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<image/logo_unsyiah.png, id=75, 264.99pt x 264.99pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 189
+.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 189
+.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+<image/logo_unsyiah.png, id=205, 264.99pt x 264.99pt>
 File: image/logo_unsyiah.png Graphic file (type png)
 <use image/logo_unsyiah.png>
-Package pdftex.def Info: image/logo_unsyiah.png  used on input line 185.
+Package pdftex.def Info: image/logo_unsyiah.png  used on input line 189.
 (pdftex.def)             Requested size: 123.77074pt x 123.77301pt.
 
 
@@ -954,59 +982,9 @@ Package pdftex.def Info: image/logo_unsyiah.png  used on input line 185.
 {/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/us
 r/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc} <./image/logo
 _unsyiah.png>]
-Overfull \hbox (3.16945pt too wide) in paragraph at lines 187--187
- [][] 
+Overfull \hbox (5.88618pt too wide) in paragraph at lines 191--191
+[]|$[]$| 
  []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 \approvalpage
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 \approvalpage
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-\approvalpage ...r. Saumi Syahreza, S.Si, M.Si.} &
-                                                   \\ NIP. \@kaprodinip & \p...
-l.187 \approvalpage
-                   
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-\approvalpage ..., M.Si.} & \\ NIP. \@kaprodinip &
-                                                   \par \end {doublespace} \...
-l.187 \approvalpage
-                   
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
 
 
@@ -1014,27 +992,17 @@ might try typing `S' now just to see what is salvageable.
 
 
 ]
+
+[3]
 \openout2 = `include/daftar-singkatan.aux'.
 
  (./include/daftar-singkatan.tex)
 \openout2 = `include/kata-pengantar.aux'.
 
  (./include/kata-pengantar.tex)
-Overfull \hbox (73.46774pt too wide) in paragraph at lines 29--194
+Overfull \hbox (73.46774pt too wide) in paragraph at lines 29--198
 [][] 
  []
-
-
-
-[3
-
-
-
-
-
-] (./seminar-proposal.toc)
-\tf@toc=\write5
-\openout5 = `seminar-proposal.toc'.
 
 
 
@@ -1042,33 +1010,41 @@ Overfull \hbox (73.46774pt too wide) in paragraph at lines 29--194
 
 
 
-] (./seminar-proposal.lot)
-\tf@lot=\write6
-\openout6 = `seminar-proposal.lot'.
 
 
+
+] (./seminar-proposal.toc
 
 [5
 
-] (./seminar-proposal.lof)
+
+]
+Overfull \hbox (0.50574pt too wide) detected at line 91
+\T1/ptm/m/n/12 2.10. 
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `seminar-proposal.toc'.
+
+ (./seminar-proposal.lot)
+\tf@lot=\write6
+\openout6 = `seminar-proposal.lot'.
+
+ (./seminar-proposal.lof)
 \tf@lof=\write7
 \openout7 = `seminar-proposal.lof'.
 
 
 ! Undefined control sequence.
-l.212 \listofappendices
+\listofappendices ->\listoftoc 
+                               {app}
+l.216 \listofappendices
                        
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+? 
 
 
-
-[6
-
-]
+[6]
 \openout2 = `include/daftar-singkatan.aux'.
 
  (./include/daftar-singkatan.tex)
@@ -1076,35 +1052,6 @@ and I'll forget about whatever was undefined.
 
  (./include/bab1.tex
 BAB I.
-
-Package natbib Warning: Citation `hollas-2013' on page 1 undefined on input lin
-e 11.
-
-
-Package natbib Warning: Citation `thorne-1999' on page 1 undefined on input lin
-e 11.
-
-
-Package natbib Warning: Citation `gasior2023analysis' on page 1 undefined on in
-put line 12.
-
-
-Package natbib Warning: Citation `dandrea-2014' on page 1 undefined on input li
-ne 12.
-
-
-Package natbib Warning: Citation `fiantis2020land' on page 1 undefined on input
- line 13.
-
-! Undefined control sequence.
-l.13 ...l-time}. Pada penelitian ini, model \texit
-                                                  {Deep Learning} \textit{Lo...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 
 [1
@@ -1114,19 +1061,11 @@ and I'll forget about whatever was undefined.
 
 
 ]
-
-Package natbib Warning: Citation `fiantis2020land' on page 2 undefined on input
- line 17.
-
 ! Undefined control sequence.
 l.17 ...tuk mempercepat analisa LIBS secara \texit
                                                   {real-ti} dan efisien; bag...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
+? 
 )
 
 [2]
@@ -1134,45 +1073,11 @@ and I'll forget about whatever was undefined.
 
  (./include/bab2.tex
 BAB II.
-! Undefined control sequence.
-l.15 ....6 \, \text{eV}}{n^2} \quad (n \in \mathbb
-                                                  {Z}^+),
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Package natbib Warning: Citation `Beiser1992' on page 3 undefined on input line
- 17.
-
-
-Package natbib Warning: Citation `Beiser1992' on page 3 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Griffiths2005' on page 3 undefined on input l
-ine 22.
-
-
-Package natbib Warning: Citation `Liboff2003' on page 3 undefined on input line
- 28.
-
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
 2.
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-Package natbib Warning: Citation `Demtroder2010' on page 3 undefined on input l
-ine 32.
-
-
-Package natbib Warning: Citation `Kaufmann2020' on page 3 undefined on input li
-ne 33.
-
-
 
 [3
 
@@ -1181,174 +1086,7 @@ ne 33.
 
 ]
 
-Package natbib Warning: Citation `Demtroder2010' on page 4 undefined on input l
-ine 37.
-
-
-
 [4]
-
-! Package titlesec Error: No format for this command.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69 ...na spektrum emisi dihasilkan dari plasma.}
-                                                  
-If you (re)set the class of a sectioning command, you may
-you may need to (re)define its format with \titleformat
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.69 ...na spektrum emisi dihasilkan dari plasma.}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.69 ...na spektrum emisi dihasilkan dari plasma.}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.69 ...na spektrum emisi dihasilkan dari plasma.}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.69 ...na spektrum emisi dihasilkan dari plasma.}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: No format for this command.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 ...an  $\nu_{ij}$ adalah frekuensi transisi.}
-                                                  
-If you (re)set the class of a sectioning command, you may
-you may need to (re)define its format with \titleformat
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.70 ...an  $\nu_{ij}$ adalah frekuensi transisi.}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.70 ...an  $\nu_{ij}$ adalah frekuensi transisi.}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.70 ...an  $\nu_{ij}$ adalah frekuensi transisi.}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.70 ...an  $\nu_{ij}$ adalah frekuensi transisi.}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-! Package titlesec Error: No format for this command.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 ...toh simulasi spektrum emisi dengan Manim:}
-                                                  
-If you (re)set the class of a sectioning command, you may
-you may need to (re)define its format with \titleformat
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.71 ...toh simulasi spektrum emisi dengan Manim:}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.71 ...toh simulasi spektrum emisi dengan Manim:}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.71 ...toh simulasi spektrum emisi dengan Manim:}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.71 ...toh simulasi spektrum emisi dengan Manim:}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 
 LaTeX Warning: File `simulasi_spektrum_emisi.png' not found on input line 75.
 
@@ -1363,40 +1101,225 @@ Type  H <return>  for immediate help.
 l.75 ....8\textwidth]{simulasi_spektrum_emisi.png}
                                                    % Ganti dengan path ke ga...
 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 75
 .
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-! Font T1/pcr/m/n/12=pcrr8t at 12.0pt not loadable: Metric (TFM) file not found
-.
-<to be read again> 
-                   relax 
-l.75 ....8\textwidth]{simulasi_spektrum_emisi.png}
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+[5]
+
+LaTeX Warning: File `diagram_grotrian_ndyag.png' not found on input line 100.
+
+
+! Package pdftex.def Error: File `diagram_grotrian_ndyag.png' not found: using 
+draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ....8\textwidth]{diagram_grotrian_ndyag.png}
                                                    % Ganti dengan path ke ga...
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
 
-! pdfTeX error (font): invalid font identifier.
-MT@font ->T1/pcr/m/n/12 
-                        
-l.75 ....8\textwidth]{simulasi_spektrum_emisi.png}
-                                                   % Ganti dengan path ke ga...
+? 
 
 
- 
+[6]
+
+[7]
+
+[8]
+
+[9]
+Overfull \hbox (141.8348pt too wide) in paragraph at lines 179--179
+[]\T1/pcr/m/n/12 model.add(LSTM(64, return_sequences=True, input_shape=(timeste
+ps, features)))[] 
+ []
+
+
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+Package natbib Warning: Citation `Godio2016' on page 14 undefined on input line
+ 255.
+
+
+
+[14])
+
+[15]
+\openout2 = `include/bab3.aux'.
+
+ (./include/bab3.tex
+BAB III.
+
+! LaTeX Error: \begin{itemize} on input line 17 ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \end{enumerate}
+                    
+? 
+
+
+[16
+
+
+
+
+]
+<image/lstm1.png, id=498, 90.3375pt x 235.88126pt>
+File: image/lstm1.png Graphic file (type png)
+<use image/lstm1.png>
+Package pdftex.def Info: image/lstm1.png  used on input line 44.
+(pdftex.def)             Requested size: 82.51173pt x 215.44771pt.
+
+
+[17 <./image/lstm1.png>]
+Overfull \hbox (5.60269pt too wide) in paragraph at lines 75--75
+ []\T1/pcr/m/n/12 from keras.preprocessing.sequence import pad_sequences[] 
+ []
+
+
+
+[18]
+Overfull \hbox (63.20267pt too wide) in paragraph at lines 76--76
+ []\T1/pcr/m/n/12 padded_sequences = pad_sequences(sequences, maxlen=max_length
+)[] 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86 \frac{n_i \cdot n_e}{n_a}
+                               = \left( \frac{2}{\Lambda^3} \right) \cdot \l...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86 \frac{n_i \cdot n_e}{n_a}
+                               = \left( \frac{2}{\Lambda^3} \right) \cdot \l...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86 \frac{n_i \cdot n_e}{n_a}
+                               = \left( \frac{2}{\Lambda^3} \right) \cdot \l...
+
+? 
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.86 \frac{n_i \cdot n_e}{n_a}
+                               = \left( \frac{2}{\Lambda^3} \right) \cdot \l...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.88 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.88 
+     
+? 
+)
+
+[19] (./seminar-proposal.bbl
+! Misplaced alignment tab character &.
+l.87 \newblock Springer Science &
+                                  Business Media.
+? 
+
+
+[20
+
+
+
+])
+
+Package natbib Warning: There were undefined citations.
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 238.
+See the caption package documentation for explanation.
+
+
+! LaTeX Error: \begin{enumerate} on input line 15 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 \end{document}
+                    
+? 
+
+
+[21] (./seminar-proposal.aux (./include/daftar-singkatan.aux)
+(./include/kata-pengantar.aux) (./include/daftar-singkatan.aux)
+(./include/bab1.aux) (./include/bab2.aux) (./include/bab3.aux))
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package rerunfilecheck Info: File `seminar-proposal.out' has not changed.
+(rerunfilecheck)             Checksum: B88749BDFBF9D3F6DB2C6535E1E43969;8092.
+ )
+(\end occurred inside a group at level 3)
+
+### semi simple group (level 3) entered at line 15 (\begingroup)
+### semi simple group (level 2) entered at line 231 (\begingroup)
+### semi simple group (level 1) entered at line 231 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 23582 strings out of 474600
- 428253 string characters out of 5750295
- 849721 words of memory out of 5000000
- 45943 multiletter control sequences out of 15000+600000
- 602853 words of font info for 183 fonts, out of 8000000 for 9000
+ 24118 strings out of 474600
+ 437729 string characters out of 5750295
+ 855933 words of memory out of 5000000
+ 46229 multiletter control sequences out of 15000+600000
+ 618139 words of font info for 262 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
- 75i,12n,85p,1490b,1383s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 75i,12n,85p,1486b,2190s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025basic/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025basic/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025ba
+sic/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2025basic
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025basic/texm
+f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025basic/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025basic/texmf-dist/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on seminar-proposal.pdf (27 pages, 397740 bytes).
+PDF statistics:
+ 629 PDF objects out of 1000 (max. 8388607)
+ 560 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 59811 words of extra memory for PDF output out of 61914 (max. 10000000)
+
