@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.11)  11 MAR 2025 23:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.11)  12 MAR 2025 00:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -850,7 +850,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-<image/logo_unsyiah.png, id=205, 264.99pt x 264.99pt>
+<image/logo_unsyiah.png, id=157, 264.99pt x 264.99pt>
 File: image/logo_unsyiah.png Graphic file (type png)
 <use image/logo_unsyiah.png>
 Package pdftex.def Info: image/logo_unsyiah.png  used on input line 193.
@@ -895,17 +895,7 @@ Overfull \hbox (73.46774pt too wide) in paragraph at lines 29--202
 
 
 
-] (./seminar-proposal.toc
-
-[5
-
-
-]
-Overfull \hbox (0.50574pt too wide) detected at line 91
-\T1/ptm/m/n/12 2.10. 
- []
-
-)
+] (./seminar-proposal.toc)
 \tf@toc=\write5
 \openout5 = `seminar-proposal.toc'.
 
@@ -931,7 +921,10 @@ and I'll forget about whatever was undefined.
 
 
 
-[6]
+[5
+
+
+]
 \openout2 = `include/daftar-singkatan.aux'.
 
  (./include/daftar-singkatan.tex)
@@ -940,6 +933,21 @@ and I'll forget about whatever was undefined.
  (./include/bab1.tex
 BAB I.
 
+Package natbib Warning: Citation `hollas-2013' on page 1 undefined on input line 11.
+
+
+Package natbib Warning: Citation `thorne-1999' on page 1 undefined on input line 11.
+
+
+Package natbib Warning: Citation `gasior2023analysis' on page 1 undefined on input line 12.
+
+
+Package natbib Warning: Citation `dandrea-2014' on page 1 undefined on input line 12.
+
+
+Package natbib Warning: Citation `fiantis2020land' on page 1 undefined on input line 13.
+
+
 
 [1
 
@@ -947,17 +955,40 @@ BAB I.
 
 
 
-])
+]
+
+Package natbib Warning: Citation `fiantis2020land' on page 2 undefined on input line 17.
+
+)
 
 [2]
 \openout2 = `include/bab2.aux'.
 
  (./include/bab2.tex
 BAB II.
+
+Package natbib Warning: Citation `Beiser1992' on page 3 undefined on input line 17.
+
+
+Package natbib Warning: Citation `Beiser1992' on page 3 undefined on input line 22.
+
+
+Package natbib Warning: Citation `Griffiths2005' on page 3 undefined on input line 22.
+
+
+Package natbib Warning: Citation `Liboff2003' on page 3 undefined on input line 28.
+
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 32.
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+
+Package natbib Warning: Citation `Demtroder2010' on page 3 undefined on input line 32.
+
+
+Package natbib Warning: Citation `Kaufmann2020' on page 3 undefined on input line 33.
+
+
 
 [3
 
@@ -966,23 +997,46 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 ]
 
+Package natbib Warning: Citation `Demtroder2010' on page 4 undefined on input line 37.
+
+
+
 [4]
+<image/simulasi_spektrum_emisi.png, id=233, 1292.83pt x 523.9575pt>
+File: image/simulasi_spektrum_emisi.png Graphic file (type png)
+<use image/simulasi_spektrum_emisi.png>
+Package pdftex.def Info: image/simulasi_spektrum_emisi.png  used on input line 75.
+(pdftex.def)             Requested size: 330.05322pt x 133.76329pt.
 
-LaTeX Warning: File `simulasi_spektrum_emisi.png' not found on input line 75.
+
+[5 <./image/simulasi_spektrum_emisi.png>]
+
+[6]
+
+Package natbib Warning: Citation `hochreiter1997' on page 7 undefined on input line 132.
 
 
-./include/bab2.tex:75: Package pdftex.def Error: File `simulasi_spektrum_emisi.png' not found: using draft setting.
+Package natbib Warning: Citation `graves2013' on page 7 undefined on input line 133.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 ....8\textwidth]{simulasi_spektrum_emisi.png}
-                                                   % Ganti dengan path ke ga...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 75.
+Package natbib Warning: Citation `graves2013' on page 7 undefined on input line 138.
+
+
+
+[7]
+
+Package natbib Warning: Citation `zhang2019' on page 8 undefined on input line 143.
+
+
+Package natbib Warning: Citation `bengio2012' on page 8 undefined on input line 148.
+
+
+
+[8]
+
+Package natbib Warning: Citation `hochreiter1997' on page 9 undefined on input line 159.
+
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 165.
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -992,222 +1046,88 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[5]
-
-LaTeX Warning: File `diagram_grotrian_ndyag.png' not found on input line 100.
+Package natbib Warning: Citation `graves2013' on page 9 undefined on input line 171.
 
 
-./include/bab2.tex:100: Package pdftex.def Error: File `diagram_grotrian_ndyag.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 ....8\textwidth]{diagram_grotrian_ndyag.png}
-                                                   % Ganti dengan path ke ga...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[6]
-
-[7]
-
-[8]
-
-[9]
-Overfull \hbox (141.8348pt too wide) in paragraph at lines 179--179
+Overfull \hbox (141.8348pt too wide) in paragraph at lines 178--178
 []\T1/pcr/m/n/12 model.add(LSTM(64, return_sequences=True, input_shape=(timesteps, features)))[] 
  []
+
+
+Package natbib Warning: Citation `bengio2012' on page 9 undefined on input line 183.
+
+
+
+[9]
+
+Package natbib Warning: Citation `zhang2019' on page 10 undefined on input line 195.
 
 
 
 [10]
 
+Package natbib Warning: Citation `pathria2011' on page 11 undefined on input line 219.
+
+
+
 [11]
+
+Package natbib Warning: Citation `mason2015' on page 12 undefined on input line 226.
+
+
 
 [12]
 
-[13]
-
-Package natbib Warning: Citation `Godio2016' on page 14 undefined on input line 255.
+Package natbib Warning: Citation `Godio2016' on page 13 undefined on input line 254.
 
 
 
-[14])
+[13])
 
-[15]
+[14]
 \openout2 = `include/bab3.aux'.
 
  (./include/bab3.tex
 BAB III.
+./include/bab3.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \end/ 
+l.20 \end
+         {enumerate}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-./include/bab3.tex:36: LaTeX Error: \begin{itemize} on input line 17 ended by \end{enumerate}.
+./include/bab3.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \end/ 
+l.20 \end
+         {enumerate}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 \end{enumerate}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+./include/bab3.tex:20: Missing \endcsname inserted.
+<to be read again> 
+                   \end/ 
+l.20 \end
+         {enumerate}
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
-
-
-[16
-
-
-
-
-]
-<image/lstm1.png, id=498, 90.3375pt x 235.88126pt>
-File: image/lstm1.png Graphic file (type png)
-<use image/lstm1.png>
-Package pdftex.def Info: image/lstm1.png  used on input line 44.
-(pdftex.def)             Requested size: 82.51173pt x 215.44771pt.
-
-
-[17 <./image/lstm1.png>]
-Overfull \hbox (5.60269pt too wide) in paragraph at lines 75--75
- []\T1/pcr/m/n/12 from keras.preprocessing.sequence import pad_sequences[] 
- []
-
-
-
-[18]
-Overfull \hbox (63.20267pt too wide) in paragraph at lines 76--76
- []\T1/pcr/m/n/12 padded_sequences = pad_sequences(sequences, maxlen=max_length)[] 
- []
-
-./include/bab3.tex:86: Missing $ inserted.
+./include/bab3.tex:20: TeX capacity exceeded, sorry [input stack size=10000].
 <inserted text> 
-                $
-l.86 \frac{n_i \cdot n_e}{n_a}
-                               = \left( \frac{2}{\Lambda^3} \right) \cdot \l...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+                \relax
+l.20 \end
+         {enumerate}
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
 
-./include/bab3.tex:86: Missing $ inserted.
-<inserted text> 
-                $
-l.86 \frac{n_i \cdot n_e}{n_a}
-                               = \left( \frac{2}{\Lambda^3} \right) \cdot \l...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./include/bab3.tex:86: Missing $ inserted.
-<inserted text> 
-                $
-l.86 \frac{n_i \cdot n_e}{n_a}
-                               = \left( \frac{2}{\Lambda^3} \right) \cdot \l...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./include/bab3.tex:86: Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.86 \frac{n_i \cdot n_e}{n_a}
-                               = \left( \frac{2}{\Lambda^3} \right) \cdot \l...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./include/bab3.tex:88: Missing $ inserted.
-<inserted text> 
-                $
-l.88 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./include/bab3.tex:88: Missing } inserted.
-<inserted text> 
-                }
-l.88 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
-
-[19] (./seminar-proposal.bbl
-./seminar-proposal.bbl:87: Misplaced alignment tab character &.
-l.87 \newblock Springer Science &
-                                  Business Media.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-
-[20
-
-
-
-])
-
-Package natbib Warning: There were undefined citations.
-
-
-Package caption Warning: Unused \captionsetup[table] on input line 242.
-See the caption package documentation for explanation.
-
-
-/Users/birrulwalidain/Downloads/skripsi-2/seminar-proposal.tex:296: LaTeX Error: \begin{enumerate} on input line 15 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.296 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-
-[21] (./seminar-proposal.aux (./hype.indonesia.aux) (./include/daftar-singkatan.aux) (./include/kata-pengantar.aux) (./include/daftar-singkatan.aux) (./include/bab1.aux) (./include/bab2.aux) (./include/bab3.aux))
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
-Package rerunfilecheck Info: File `seminar-proposal.out' has not changed.
-(rerunfilecheck)             Checksum: B88749BDFBF9D3F6DB2C6535E1E43969;8092.
- )
-(\end occurred inside a group at level 3)
-
-### semi simple group (level 3) entered at line 15 (\begingroup)
-### semi simple group (level 2) entered at line 235 (\begingroup)
-### semi simple group (level 1) entered at line 235 (\begingroup)
-### bottom level 
+ 
 Here is how much of TeX's memory you used:
- 24056 strings out of 474600
- 437534 string characters out of 5750295
- 856251 words of memory out of 5000000
- 46242 multiletter control sequences out of 15000+600000
- 618364 words of font info for 264 fonts, out of 8000000 for 9000
+ 23850 strings out of 474600
+ 432685 string characters out of 5750295
+ 851058 words of memory out of 5000000
+ 46098 multiletter control sequences out of 15000+600000
+ 618136 words of font info for 262 fonts, out of 8000000 for 9000
  374 hyphenation exceptions out of 8191
- 75i,12n,85p,1528b,2190s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on seminar-proposal.pdf (27 pages, 397753 bytes).
-PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
- 560 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
- 59811 words of extra memory for PDF output out of 61914 (max. 10000000)
-
+ 10000i,12n,9999p,1528b,1620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+./include/bab3.tex:20:  ==> Fatal error occurred, no output PDF file produced!
