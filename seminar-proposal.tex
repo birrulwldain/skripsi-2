@@ -9,14 +9,15 @@
 \def\input@path{{lib/}}
 \makeatother
 % Template pembuatan naskah tugas akhir.
-\documentclass[dvipsnames]{jifproposal-abdul}
+% Di file utama:
+\documentclass{jifproposal-abdul}  % Ganti dari jifproposal-abdul
 
 \tolerance=1
 \emergencystretch=\maxdimen
 \hyphenpenalty=10000
 \hbadness=10000
 
-%\usepackage[a4paper,left=14cm,right=3cm,top=3cm,bottom=5cm]{geometry}
+% \usepackage[a4paper,left=14cm,right=3cm,top=3cm,bottom=5cm]{geometry}
 % karena file hype.indonesia.tex ada di folder language, maka kita harus menambahkan path language/ ke dalam path pencarian file
 \makeatletter
 \def\input@path{{language/}}
@@ -25,7 +26,7 @@
 
 % Untuk prefiks pada daftar gambar dan tabel
 \usepackage{tocloft}
-\newcommand{\listofappendices}{\listoftoc{app}}
+\newcommand{\listofappendices}{\listof{appendices}{Daftar Lampiran}}
 
 \usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
 \makeatletter
@@ -141,11 +142,14 @@
 \makeatletter
 \def\input@path{{include/}}
 \makeatother
-% Sampul Depan
-\include{sampul-depan}
 
 % Awal dokumen
 \usepackage{fancyhdr}
+
+\begin{document}
+\fancyhf{} 
+\fancyfoot[C]{\thepage}
+\include{sampul-depan}
 % Command dibawah ini bertujuan untuk membuat nomor halaman berada di tengah lalu halaman selanjutnya di kanan
 \pagestyle{fancy}
 \fancyhf{}
@@ -180,11 +184,7 @@
 % Mengatur jarak pada nomor atau label section dan judul section 
 % Contoh 1.1 Judul Section menjadi 1.1     Judul Section
 \usepackage{titlesec}
-\newcommand{\listofappendices}{%
-    \chapter*{Daftar Lampiran}%
-    \addcontentsline{toc}{chapter}{Daftar Lampiran}%
-    \listoftoc{app}%
-}
+
 \begin{document}
 \fancyhf{} 
 \fancyfoot[C]{\thepage}
@@ -217,7 +217,7 @@
 \listoffigures
 \addcontentsline{toc}{chapter}{Daftar Gambar}
 
-\listofappendices
+% \listofappendices
 
 \enableboldchapterintoc
 %-----------------------------------------------------------------
@@ -239,7 +239,7 @@
 \pagenumbering{arabic}
 
 \captionsetup[figure]{labelfont={normalfont}, textfont={normalfont}} % Unbold caption gambar
-\captionsetup[table]{labelfont={normalfont}, textfont={normalfont}} % Unbold caption tabel
+% \captionsetup[table]{labelfont={normalfont}, textfont={normalfont}} % Unbold caption tabel
 
 \fancyhf{} 
 \fancyfoot[R]{\thepage}
@@ -290,6 +290,8 @@
 %\include{markLampiran}
 % \include{lampiran}
 % \addcontentsline{toc}{chapter}{LAMPIRAN} %daftar lampiran
+
+\end{onehalfspace}
 
 \end{onehalfspace}
 
